@@ -2,6 +2,7 @@ import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import PostCard from '@/components/PostCard';
 
+
 const mockPost = {
   slug: 'test-slug',
   title: 'Test Title',
