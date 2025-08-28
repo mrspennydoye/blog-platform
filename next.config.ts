@@ -1,7 +1,13 @@
 import type { NextConfig } from "next";
 
+
+
 const nextConfig: NextConfig = {
-  /* config options here */
+  reactStrictMode: true,
+  swcMinify: true,
+  images: {
+    domains: ['conduit-api.learnwebdriverio.com', 'i.stack.imgur.com'],
+  },
 };
 
 export default nextConfig;
